@@ -1,7 +1,7 @@
 /*=============== SHOW SIDEBAR ===============*/
 const navMenu = document.getElementById('sidebar'),
-      navToggle = document.getElementById('nav-toggle'),
-      navClose = document.getElementById('nav-close');
+      navToggle = document.getElementById('nav__toggle'),
+      navClose = document.getElementById('nav__close');
 
 
 /*===== SIDEBAR SHOW =====*/
