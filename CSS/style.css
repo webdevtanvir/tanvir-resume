@@ -163,11 +163,15 @@ input{
     margin: auto;
 }
 
-.nav__logo-text{
+.nav__logo-text {
      font-size: 1.125rem;
-     color: var(--title-color);
      font-weight: var(--font-bold);
-     line-height: 40px; 
+     line-height: 40px;
+     cursor: pointer;
+}
+    
+.nav__logo-text a {
+    color: var(--title-color);
 }
 
 .nav__menu{

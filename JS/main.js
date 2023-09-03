@@ -1,7 +1,7 @@
 /*=============== SHOW SIDEBAR ===============*/
 const navMenu = document.getElementById('sidebar'),
-      navToggle = document.getElementById('nav__toggle'),
-      navClose = document.getElementById('nav__close');
+      navToggle = document.getElementById('nav-toggle'),
+      navClose = document.getElementById('nav-close');
 
 
 /*===== SIDEBAR SHOW =====*/
@@ -153,7 +153,7 @@ const sections = document.querySelectorAll('section[id]');
 // add and event listener Listing for scroll
 window.addEventListener('scroll', navHighlighter);
 
-function navHighlighter() 
+function navHighlighter()
 {
     // get current scroll position
     let scrollY = window.pageYOffset;
