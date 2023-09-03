@@ -60,63 +60,63 @@
 }
 
 /*=============== BASE ===============*/
-*{
+* {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
 }
 
-html{
+html {
     scroll-behavior: smooth;
 }
 
 body,
 button,
-input{
+input {
     font-family: var(--body-font);
 }
 
-body{
+body {
     background-color: var(--body-color);
     color: var(--text-color);
 }
 
-h1, h2, h3{
+h1, h2, h3 {
     color: var(--title-color);
     font-weight: var(--font-bold);
 }
 
-ul{
+ul {
     list-style: none;
 }
 
-a{
+a {
     text-decoration: none;
 }
 
-img{
+img {
     max-width: 100%;
     height: auto;
 }
 
-button{
+button {
     cursor: pointer;
 }
 
 button,
-input{
+input{ 
     border: none;
     outline: none;
 }
 
 /*=============== LAYOUT ===============*/
-.container{
+.container {
     max-width: 1250px;
     margin-left: auto;
     margin-right: auto;
 }
 
-.grid{
+.grid {
     display: grid;
 }
 
@@ -140,7 +140,7 @@ input{
 }
 
 /*=============== SIDEBAR ===============*/
-.sidebar{
+.sidebar {
     position: fixed;
     width: 100px;
     height: 100vh;
@@ -150,7 +150,7 @@ input{
 
 }
 
-.nav__logo{
+.nav__logo {
     position: absolute;
     left: 0;
     right: 0;
@@ -174,7 +174,7 @@ input{
     color: var(--title-color);
 }
 
-.nav__menu{
+.nav__menu {
     position: fixed;
     transform: rotate(-90deg) translateX(-100%);
     transform-origin: left top;
@@ -182,17 +182,17 @@ input{
     
 }
 
-.menu{
+.menu {
     display: flex;
 }
 
-.nav__list{
+.nav__list {
     display: flex;
     flex-direction: row-reverse;
     margin: -2px auto 0 auto;
 }
 
-.nav__link{
+.nav__link {
     float: right;
     height: 100%;
     line-height: 100px;
@@ -203,7 +203,7 @@ input{
     transition: 0.4s;
 }
 
-.btn__share{
+.btn__share {
     position: absolute;
     bottom: 1.8rem;
     left: 0;
@@ -211,7 +211,7 @@ input{
     text-align: center;
 }
 
-.social__share{
+.social__share {
     font-size: 1.5rem;
 }
 
@@ -1255,7 +1255,7 @@ textarea.input {
     }
 
     .nav__link.active-link::after, .nav__link:hover::after {
-         bottom: 0;
+         bottom: 0rem;
     }
 
     .nav__close {
@@ -1435,6 +1435,10 @@ textarea.input {
 
     .home__container {
         row-gap: 2rem;
+    }
+
+    .home__subtitle {
+        font-size: 1.5rem;
     }
 
     .home__img {
